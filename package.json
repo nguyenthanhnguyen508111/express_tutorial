@@ -2,7 +2,7 @@
   "name": "tutorial",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "nodemon --inspect",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,6 +24,10 @@
   "homepage": "https://github.com/nguyenthanhnguyen508111/express_tutorial#readme",
   "dependencies": {
     "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
     "nodemon": "^2.0.16"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
   }
 }
