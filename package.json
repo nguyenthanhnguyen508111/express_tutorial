@@ -23,11 +23,21 @@
   },
   "homepage": "https://github.com/nguyenthanhnguyen508111/express_tutorial#readme",
   "dependencies": {
+    "bootstrap-icons": "^1.8.3",
     "express": "^4.18.1",
     "express-handlebars": "^6.0.6",
+    "method-override": "^3.0.0",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.5",
+    "mongoose-delete": "^0.5.4",
+    "mongoose-sequence": "^5.3.1",
+    "mongoose-slug-generator": "^1.0.4",
     "nodemon": "^2.0.16"
   },
   "devDependencies": {
-    "morgan": "^1.10.0"
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.0",
+    "morgan": "^1.10.0",
+    "prettier": "^2.6.2"
   }
 }

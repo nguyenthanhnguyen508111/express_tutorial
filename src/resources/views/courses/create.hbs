@@ -1,0 +1,18 @@
+<h3>Đăng khóa học</h3>
+<div class="mt-4">
+    <form method="POST" action="/courses/store">
+        <div class="form-group">
+            <label for="name">Tên khóa học</label>
+            <input type="text" name="name" id="name" class="form-control" placeholder="Tên khóa học">
+        </div>
+        <div class="form-group">
+            <label for="description">Mô tả</label>
+            <textarea id="description" name="description" class="form-control" placeholder="Mô tả khóa học"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="video-id">Video Id</label>
+            <input type="text"name="videoId"  id="video-id" class="form-control" placeholder="Video Id">
+        </div>
+        <button type="submit" class="btn btn-primary">Lưu</button>
+    </form>
+</div>
